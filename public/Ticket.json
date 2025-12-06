@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "Customer cannot log into their account.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "10/01/2025"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failure",
+    "description": "Payment is not processing through the app.",
+    "customer": "Sadia Akter",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "11/01/2025"
+  },
+  {
+    "id": 3,
+    "title": "Order Not Received",
+    "description": "Customer has not received their order even after 5 days.",
+    "customer": "Jamal Hossain",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "12/01/2025"
+  },
+  {
+    "id": 4,
+    "title": "App Crash",
+    "description": "App crashes when opening the cart page.",
+    "customer": "Farzana Ahmed",
+    "priority": "Critical",
+    "status": "Pending",
+    "createdAt": "13/01/2025"
+  },
+  {
+    "id": 5,
+    "title": "Refund Request",
+    "description": "Customer requested a refund for a defective product.",
+    "customer": "Tanvir Hasan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "14/01/2025"
+  },
+  {
+    "id": 6,
+    "title": "Profile Update Error",
+    "description": "Customer cannot update their profile information.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "15/01/2025"
+  },
+  {
+    "id": 7,
+    "title": "Delivery Address Issue",
+    "description": "System not saving new delivery address.",
+    "customer": "Shakib Ali",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "16/01/2025"
+  },
+  {
+    "id": 8,
+    "title": "Discount Not Applied",
+    "description": "Promo code not applying during checkout.",
+    "customer": "Mehjabin Akhter",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "17/01/2025"
+  },
+  {
+    "id": 9,
+    "title": "Slow App Performance",
+    "description": "Customer reports slow performance on the home page.",
+    "customer": "Raihan Karim",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "18/01/2025"
+  },
+  {
+    "id": 10,
+    "title": "Account Suspended",
+    "description": "Customer account is showing suspended by mistake.",
+    "customer": "Anika Chowdhury",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "19/01/2025"
+  },
+  {
+    "id": 11,
+    "title": "Email Notification Issue",
+    "description": "Customer not receiving order confirmation email.",
+    "customer": "Imran Hossain",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "20/01/2025"
+  },
+  {
+    "id": 12,
+    "title": "Cart Not Updating",
+    "description": "Items not updating in cart after adding.",
+    "customer": "Sumaiya Islam",
+    "priority": "Critical",
+    "status": "Pending",
+    "createdAt": "21/01/2025"
+  }
+]
