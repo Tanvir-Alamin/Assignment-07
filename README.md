@@ -1,16 +1,20 @@
-# React + Vite
+Live Link => https://assignment-07-live-server.netlify.app/
+Git Hub Repo. Link => https://github.com/Tanvir-Alamin/Assignment-07/tree/main
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. What is JSX, and why is it used?
+   JSX is method to write HTML inside JavaScript. It used in react to describe the UI structure in a readable way and combine JavaScript logic with HTML layout.
 
-Currently, two official plugins are available:
+2. What is the difference between State and Props?
+   State is data that belongs to a component.The component can change it, and when it changes, the UI updates automatically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   Props are like arguments that passes into a function.
 
-## React Compiler
+3. What is the useState hook, and how does it work?
+   useState is a React hook that allows functional components to have state. It returns an array with two elements: the current state value and a function to update that state.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4. How can you share state between components in React?
+   By sending the State as props to the Child component.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. How is event handling done in React?
+   Use camelCase for events "onClick"
+   Pass a function with reference and the rest work will be happen inside the function as needed
