@@ -16,7 +16,13 @@ function App() {
     <div>
       <Navbar></Navbar>
 
-      <Suspense fallback={<p>Loading Data ⌛</p>}>
+      <Suspense
+        fallback={
+          <p className="flex justify-center h-screen text-xl font-semibold items-center">
+            Loading Data ⌛
+          </p>
+        }
+      >
         <CustomerTicket allData={allData}></CustomerTicket>
       </Suspense>
       <ToastContainer />

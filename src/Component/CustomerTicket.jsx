@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import AllTicket from "./AllTicket";
 import ProgressList from "./ProgressList";
 import Solved from "./Solved";
+import Footer from "./Footer";
 
 const CustomerTicket = ({ allData }) => {
   const TicketData = use(allData);
@@ -80,6 +81,7 @@ const CustomerTicket = ({ allData }) => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
